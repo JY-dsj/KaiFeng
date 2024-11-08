@@ -1,0 +1,351 @@
+* {/*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    /*头部*/
+    width: 100%;
+    height: 150px;
+}
+body{/*主体*/
+    background-color: rgb(235, 225, 225);
+}
+#hi1 {
+    /*头部图片*/
+    width: 100%;
+    height: 150px;
+}
+#hi2 {
+    /*logo图片*/
+    width: 100px;/*宽度*/
+    height: 100px;/*高度*/
+}
+
+img{/*图片设置*/
+    border-radius: 15px;/*边框弧度*/
+
+}
+
+.dh ul {
+    /*导航栏*/
+    margin-bottom: 30px;
+    width: 1175px;
+    padding: 0px;
+    height: 30px;
+}
+
+.dh ul li {/*导航栏列表*/
+    height: 30px;
+    width: 16.66%;
+    list-style: none;/*列表样式*/
+    float: left;/*左浮动*/
+    display: inline;/*行内显示*/
+    font: 0.9em;/*字体大小*/
+}
+.dh{/*导航高度*/
+    height: 30px;
+}
+.dh ul li a {/*导航链接设置*/
+    text-align: center;/*文字居中*/
+    color: white;
+    width: 100%;
+    font-size: larger;
+    font-family: 楷体;
+    text-decoration: none;/*下划线无*/
+    display: block;/*块显示*/
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);/*底部边框*/
+}
+
+.dh ul li a:hover {
+    /*鼠标划导航栏时过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;/*清除浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;/*字体设置*/
+    text-align: center;
+}
+.footer p{/*底部段落设置*/
+    margin-top: 10px;
+}
+
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;/*右浮动*/
+    padding: 0px;
+}
+span{
+    /*>>>行内设置*/
+    float: right;
+}
+span p{/*>>>行内段落设置*/
+    font-size: small;
+}
+span a{/*链接设置*/
+    color: rgb(0, 0, 0);
+}
+span a:hover{/*鼠标划过时链接变化*/
+    color: rgb(77, 248, 10);
+}
+.zhuti h2{/*主体标题设置*/
+    color: red;
+    font-family: 楷体;/*字体样式*/
+    margin-top: 20px;
+}
+.zhuti{/*主体设置*/
+    text-align: center;/*文本居中*/
+    margin: 0px 200px 0px 200px;
+    background-color: rgb(235, 225, 225);
+}
+#taiba{/*太白介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#taiba p{
+    letter-spacing: 2px;/*字简介*/
+    text-indent: 2em;/*缩进*/
+    line-height: 1.5em;/*行高设置*/
+    font-size: large;
+
+}
+#taiba img{/*清明上河园图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#taiba img:hover {/*鼠标划过时*/
+    transform: scale(1.2);
+
+}
+
+#caoyuan{/*龙亭公园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#caoyuan p{/*龙亭公园段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#caoyuan img{/*龙亭公园图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#caoyuan img:hover {/*鼠标龙亭公园图片时*/
+    transform: scale(1.2);
+
+}
+
+#jialin{/*大相国寺介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jialin p{/*大相国寺段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#jialin img{/*大相国寺图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#jialin img:hover {/*鼠标划过时大相国寺图片*/
+    transform: scale(1.2);
+
+}
+
+#baiyuan{/*开封铁塔介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#baiyuan p{/*开封铁塔段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#baiyuan img{/*开封铁塔图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#baiyuan img:hover {/*鼠标划过时开封铁塔图片*/
+    transform: scale(1.2);
+
+}
+
+#honghe{/*中国翰园碑林介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#honghe p{/*中国翰园碑林段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#honghe img{/*中国翰园碑林图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#honghe img:hover {/*鼠标划过中国翰园碑林图片*/
+    transform: scale(1.2);
+
+}
+
+#tongtian{/*万岁山·大宋武侠城介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#tongtian p{/*万岁山·大宋武侠城段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#tongtian img{/*万岁山·大宋武侠城图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#tongtian img:hover {/*鼠标划过万岁山·大宋武侠城图片*/
+    transform: scale(1.2);
+
+}
+
+#jifen{/*天波杨府介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;/*字体大小*/
+    padding: 10px;
+    font-family: 楷体;
+}
+#jifen p{/*天波杨府段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#jifen img{/*天波杨府图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#jifen img:hover {/*鼠标划过天波杨府图片设置*/
+    transform: scale(1.2);
+
+}
+
+#qianhu{/*朱仙镇启封故园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#qianhu p{/*朱仙镇启封故园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#qianhu img{/*朱仙镇启封故园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#qianhu img:hover {/*鼠标划过千朱仙镇启封故园图片设置*/
+    transform: scale(1.2);
+
+}
+
+#longmen{/*开封府介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(235, 225, 225);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#longmen p{/*开封府段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#longmen img{/*开封府图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#longmen img:hover {/*鼠标划过开封府图片设置*/
+    transform: scale(1.2);
+
+}
+
+
+.zhuti a{/*主体超链接设置*/
+    text-decoration: none;
+}
